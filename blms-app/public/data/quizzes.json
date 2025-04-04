@@ -1,0 +1,51 @@
+[
+    {
+      "subtopicId": "1-1",
+      "questions": [
+        {
+          "question": "Who found baby Moses?",
+          "options": ["Pharaoh", "Pharaoh's daughter", "A priest"],
+          "answer": "Pharaoh's daughter"
+        }
+      ]
+    },
+    {
+      "subtopicId": "1-2",
+      "questions": [
+        {
+          "question": "Where did Jesus grow up?",
+          "options": ["Bethlehem", "Nazareth", "Jerusalem"],
+          "answer": "Nazareth"
+        }
+      ]
+    },
+    
+        {
+          "subtopicId": "2-1",
+          "questions": [
+            {
+              "question": "What are the four Gospels?",
+              "options": ["Matthew, Mark, Luke, John", "Paul, Peter, James, Jude", "Moses, David, Solomon, Elijah"],
+              "answer": "Matthew, Mark, Luke, John"
+            },
+            {
+              "question": "Who is traditionally credited with writing the Gospel of Luke?",
+              "options": ["Luke", "Paul", "Peter", "John"],
+              "answer": "Luke"
+            }
+          ]
+        },
+        {
+          "subtopicId": "2-2",
+          "questions": [
+            {
+              "question": "Who wrote most of the letters in the New Testament?",
+              "options": ["Paul", "John", "Peter", "James"],
+              "answer": "Paul"
+            }
+          ]
+        }
+      ]
+      
+  
+  
