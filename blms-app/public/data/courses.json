@@ -1,39 +1,38 @@
 [
-    {
-      "id": "1",
-      "title": "Kids in the Bible",
-      "subtopics": [
-        {
-          "id": "1-1",
-          "title": "Moses as a Child",
-          "content": "Moses was found in a basket...",
-          "image": "bk6.jpeg"
-        },
-        {
-          "id": "1-2",
-          "title": "Jesus' Childhood",
-          "content": "Jesus grew up in Nazareth...",
-          "image": "bk5.jpeg"
-        }
-      ]
-    },
-    {
-      "id": "2",
-      "title": "New Testament",
-      "subtopics": [
-        {
-          "id": "2-1",
-          "title": "Gospels Overview",
-          "content": "The four Gospels tell the story...",
-          "image": "bk2.jpeg"
-        },
-        {
-          "id": "2-2",
-          "title": "Paul's Letters",
-          "content": "Paul wrote many letters to churches...",
-          "image": "bk3.jpeg"
-        }
-      ]
-    }
-  ]
-  
+  {
+    "id": "1",
+    "title": "Kids in the Bible",
+    "subtopics": [
+      {
+        "id": "1-1",
+        "title": "Moses as a Child",
+        "content": "Moses was found in a basket...",
+        "image": "/images/bk4.jpeg"
+      },
+      {
+        "id": "1-2",
+        "title": "Jesus' Childhood",
+        "content": "Jesus grew up in Nazareth...",
+        "image": "/images/bk6.jpeg"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "title": "New Testament",
+    "subtopics": [
+      {
+        "id": "2-1",
+        "title": "Gospels Overview",
+        "content": "The four Gospels tell the story...",
+        "image": "/images/bk6.jpeg"
+      },
+      {
+        "id": "2-2",
+        "title": "Paul's Letters",
+        "content": "Paul wrote many letters to churches...",
+        "image": "/images/bk0.jpeg"
+      }
+    ]
+  }
+]
