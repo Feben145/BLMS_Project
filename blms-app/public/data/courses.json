@@ -7,13 +7,13 @@
         "id": "1-1",
         "title": "Moses as a Child",
         "content": "Moses was found in a basket...",
-        "image": "/images/bk4.jpeg"
+        "image": "/images/bkm2.jpg"
       },
       {
         "id": "1-2",
         "title": "Jesus' Childhood",
         "content": "Jesus grew up in Nazareth...",
-        "image": "/images/bk6.jpeg"
+        "image": "/images/bj4.jpg"
       }
     ]
   },
@@ -25,13 +25,13 @@
         "id": "2-1",
         "title": "Gospels Overview",
         "content": "The four Gospels tell the story...",
-        "image": "/images/bk6.jpeg"
+        "image": "/images/jk1.jpg"
       },
       {
         "id": "2-2",
         "title": "Paul's Letters",
         "content": "Paul wrote many letters to churches...",
-        "image": "/images/bk0.jpeg"
+        "image": "/images/bk2.jpg"
       }
     ]
   }
