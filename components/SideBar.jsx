@@ -1,10 +1,9 @@
 const SideBar = () => {
     return (
-      <div className="w-64 bg-purple-200 p-4 ml-4">
+      <div className="w-64 bg-violet-200 p-4 ml-4 flex flex-col lg:flex-row rounded-md">
                 <nav className="p-4 space-y-5">
-          <a href="/" className="block font-semibold underline">Home</a>
-          <a href="/dashboard" className="block">Dashboard</a>
-          <a href="/courses" className="block">Courses</a>
+          <a href="/" className="block font-semibold">Home</a>
+          <a href="/courses" className="block font-semibold">Courses</a>
         </nav>
       </div>
     );

@@ -1,6 +1,9 @@
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
+const adminEmail = "admin@test.com";
+const adminPassword = "test123";
+
 const LoginForm = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -16,9 +19,7 @@ const LoginForm = () => {
   const handleLogin = (e) => {
     e.preventDefault();
    
-    const adminEmail = "admin@test.com";
-    const adminPassword = "test123";
-
+    
     if (email === adminEmail && password === adminPassword) {
       localStorage.setItem("isAuthenticated", "true");
       navigate("/"); // Redirect to Home
