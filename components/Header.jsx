@@ -23,8 +23,8 @@ const LoggingOut = () => {
 
 
     return (
-      <div className="w-full bg-black text-white flex items-center justify-between py-4 mb-4 ">
-            <div className="flex-1 flex justify-center">
+      <div className="w-full bg-black text-white flex flex-wrap items-center justify-between py-4 mb-4 overflow-hidden break-words">
+            <div className="flex-1 flex flex-wrap justify-center max-w-full h-auto">
           <input
           value= {searchTerm}
           onChange= {handleSearchChange}

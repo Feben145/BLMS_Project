@@ -52,19 +52,19 @@ export default function ContentDetail() {
   return (
     <div className="flex flex-1">
       <SideBar />
-      <main className="p-10 w-full">
-        <h2 className="text-2xl font-bold">{course.title}</h2>
-        <div className="flex mt-4">
-          {/* Subtopics List */}
-
+      <main>
+        <h2 className="text-base md:text-lg lg:text-xl font-bold ml-4 ">{course.title}</h2>
+        <div className="flex flex-wrap mt-4 mr-4 ml-4 break-words">
+         
           <div className="w-1/4 p-4 bg-gray-200 rounded-lg">
-            <h3 className="font-semibold">Subtopics</h3>
+            <h3 className="font-semibold text-sm sm:text-base md:text-lg lg:text-xl">Subtopics</h3>
+             {/* Subtopics List */}
             <ul>
               {course.subtopics.map((subtopic) => (
                 <li key={subtopic.id} className="mt-2">
-                  <button
+                  <button 
                     onClick={() => setSelectedSubtopic(subtopic)}
-                    className="text-blue-600 hover:underline"
+                    className="text-blue-600 hover:underline text-sm sm:text-base md:text-lg lg:text-xl"
                   >
                     {subtopic.title}
                   </button>
@@ -85,8 +85,7 @@ export default function ContentDetail() {
                     src={selectedSubtopic.image}
                     alt={selectedSubtopic.title}
                     className="w-full h-auto object-contain rounded shadow mt-4"
-                   
-                    
+                                     
                   />
                 )}
                 <p className="mt-4 text-gray-700">{selectedSubtopic.content}</p>

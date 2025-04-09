@@ -2,16 +2,16 @@ import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import SideBar from "../components/SideBar";
 
-
-const HomePage = () => {
-  const navigate = useNavigate();
-
-  useEffect(() => {
-    const isAuthenticated = sessionStorage.getItem("isAuthenticated");
-    if (isAuthenticated !== "true") {
-      navigate("/login");
-    }
-  }, [navigate]);
+  const HomePage = () => {
+    const navigate = useNavigate();
+  
+    useEffect(() => {
+      const isAuthenticated = localStorage.getItem("isAuthenticated") === "true";
+  
+      if (!isAuthenticated) {
+        navigate("/login"); // Redirect if not logged in
+      }
+    }, [navigate]);
 
   const courses = [
     { id: "1", title: "Kids in the Bible", description: "Learn about children in the Bible. Know God......." },
@@ -30,9 +30,9 @@ return (
 
       <section className="flex-col flex-1 p-4 bg-gray-100 gap-8">
                
-               <div className="mt-6 p-6 bg-gray-200 rounded-md">
-               <h2 className="text-xl font-bold mb-4">Course Progress</h2>
-               <div className="grid grid-cols-3 gap-6">
+               <div className="mt-8 p-6 bg-gray-200 rounded-md shadow">
+               <h2 className="text-xl font-bold mb-6">Course Progress</h2>
+               <div className=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
                  <div>
                    <p>Kids in the Bible</p>
                    <div className="w-full bg-gray-300 rounded-lg h-4">
@@ -97,7 +97,7 @@ return (
              </div>
 
              
-                  <div className="mt-6 p-6 bg-white rounded-md shadow">
+                  <div className="mt-8 p-6 bg-white rounded-md shadow">
                <h2 className="text-xl font-bold mb-4">Popular Courses</h2>
                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
 
